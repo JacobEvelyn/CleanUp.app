@@ -6,7 +6,7 @@ An OS X app that simply deletes everything in the downloads folder and empties t
 Installation
 ============
 
-cd /Applications && git clone git@github.com:JacobEvelyn/CleanUp.app.git
+    cd /Applications && git clone git@github.com:JacobEvelyn/CleanUp.app.git
 
 Usage
 =====
