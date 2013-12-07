@@ -59,8 +59,8 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>rm -rf ~/Downloads/*
-rm -rf ~/.Trash/*</string>
+					<string>for f in ~/Downloads/*; do rm -rf "$f"; done
+for f in ~/.Trash/*; do rm -rf "$f"; done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -172,8 +172,6 @@ rm -rf ~/.Trash/*</string>
 						<string>4</string>
 					</dict>
 				</dict>
-				<key>conversionLabel</key>
-				<integer>0</integer>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
