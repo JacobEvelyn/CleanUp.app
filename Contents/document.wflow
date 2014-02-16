@@ -59,8 +59,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>COMMAND_STRING</key>
-					<string>for f in ~/Downloads/*; do rm -rf "$f"; done
-for f in ~/.Trash/*; do rm -rf "$f"; done</string>
+					<string>for f in ~/Downloads/* ~/Downloads/.* ~/.Trash/* ~/.Trash/.*; do rm -rf "$f"; done</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
